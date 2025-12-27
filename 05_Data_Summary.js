@@ -81,3 +81,47 @@ console.log(typeof
 
 const bigNumber4 = BigInt("65645587955555145554")
 console.log(typeof bigNumber4);
+
+
+
+
+
+console.log("Memory ".repeat(20));
+
+
+/*
+          MEMORY  ( STACK & HEAP )
+*/
+
+// Stack ---------> Primitive  
+// Heap  ---------> Non-Primitive ( Reference Data)
+/*
+Jab Stack Memory Use Hoti Hai Tab Declare Huye Variable Ka Copy Milta Hai 
+Aur Heap Mein REFERENCE (ADDRESS) Milta Hai VArible Ke YA Original Value Ka Isme 
+Jo Kuch Chnage Hota Hai Original Value ME Hota Hain AUR STACK ME Original Value me changing Nahi Hoti HAi 
+*/
+
+
+// Example Of Stack
+
+/* 
+let custo_Email = " ali58@gmail.com"
+let anothoer_cust_Email = custo_Email
+anothoer_cust_Email = " areez6@gmail.com"
+console.log(custo_Email);
+
+console.log(anothoer_cust_Email);
+*/
+let custOne = {
+    email: "IMAAD@gmail.com",
+    upi: "cust@ybl"
+};
+let custTwo = custOne
+custTwo.email = "SAmeer45@gmail.com" // .ke baad key lagate hain access karne ke liye 
+
+console.log(custOne.email);
+console.log(custTwo.email);
+
+console.log(custTwo);
+
+console.log(custOne);
