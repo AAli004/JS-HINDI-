@@ -14,3 +14,7 @@ console.log(Math.floor(Math.random() * (max - min + 1) + min))
 const min_1 = 9
 const max_1 = 99
 console.log(Math.floor(Math.random() * (max_1 - min_1 + 1) + min_1));
+
+const x = 1000
+const y = 9999
+console.log(Math.floor(Math.random() * (y - x + 1) + x));
