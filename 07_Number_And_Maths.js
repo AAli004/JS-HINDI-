@@ -65,9 +65,9 @@ console.log(Math.round(3.4)); // Output = 3
 console.log(Math.round(3.5)); // Output = 4
 */
 
-console.log(Math.ceil(4.1)); // Output = 5 , Beco'z it will represent Top Value 
+// console.log(Math.ceil(4.1)); // Output = 5 , Beco'z it will represent Top Value 
 // 4.1 Is greater than 4 so, it represnts 5 which is Top Value 
-console.log(Math.floor(4.9)); // Output = 4 , Beco'z it will present Low Value
+// console.log(Math.floor(4.9)); // Output = 4 , Beco'z it will present Low Value
 // 4.9 is smallest than 5 so, ir repesents 4 which is Low Value
 
 
@@ -76,18 +76,21 @@ console.log(Math.sqrt(25)); // Output =25
 console.log(Math.tan(45)); // 1.69
 */
 
-/*console.log(Math.max(4, 5, 7, 6)); // output = 7 ; it is used to max number in Array
+/*console.log(Math.max(4, 5, 7, 6)); // output = 7 ; it is used to find max number in Array / object 
 console.log(Math.min(5, 8, 3, 7, 9)); // output = 3
 */
 
-// console.log(Math.random()); // iski value hamesh 0 aut 1 ke beech me atti hai ,minimum=0 & maximum=1
-// console.log(Math.random() * 10); // To shift decimal at right side ,minimum=0, maximum=10
+// console.log(Math.random()); // iski value hamesh 0 aut 1 ke beech me atti hai ,minimum=0 & maximum<1 Ya'ani 0.99999999
+// 1 kabhi nahi hogi
+// console.log(Math.random() * 10); // To shift decimal at right side ,minimum=0, maximum<10 *10 Kabhi nahi Hogi 
 // console.log(Math.random() * 100);
 
-// console.log(Math.random() * 10 + 1); // To Avoid zero , iski minimum value 1 hogi 
+// console.log(Math.random() * 10 + 1); // To Avoid zero , iski minimum value 1 hogi , maximum=10.999999
+/*
 console.log((Math.random() * 10) + 1) // To Avoid BODMAS Rules use bracket
 
 console.log(Math.floor(Math.random() * 10) + 1);
+*/
 
 const min = 10
 const max = 20
