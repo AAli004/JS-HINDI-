@@ -65,4 +65,4 @@ const p = l.padStart(5, "o") // Output = ooo55
     // console.log(typeof k);
 
 const s = "588"
-    // console.log(s.padStart(8, "*")); // Output = *****588
+console.log(s.padStart(8, "*")); // Output = *****588
